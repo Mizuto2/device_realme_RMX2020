@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera_metadata
 
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Disable Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
